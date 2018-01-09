@@ -1,0 +1,1 @@
+Made script cleaner
