@@ -1,1 +1,0 @@
-How to view the current working directory
