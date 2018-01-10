@@ -1,1 +1,1 @@
-Learned about shell
+Learned about shell permissions
