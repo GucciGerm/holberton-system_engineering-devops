@@ -1,2 +1,3 @@
 #!/bin/bash
-chown -R...[GucciGerm]:[holberton] hello
+chown GucciGerm:holberton hello ...
+
