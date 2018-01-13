@@ -1,2 +1,2 @@
 #!/bin/bash
-echo head 10 /etc/password
+cat head 10 /etc/password
