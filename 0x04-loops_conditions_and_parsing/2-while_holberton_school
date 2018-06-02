@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Holbertonschool" 10x using a while loop
+
+n=0
+while [ $n -lt 10 ]
+do
+    echo "Holberton School"
+    let n=n+1
+done
