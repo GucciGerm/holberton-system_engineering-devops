@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script will be displaying Holberton School 10 times but 9th iter say hi
+
+n=0
+while [ $n -lt 10 ]
+do
+    echo "Holberton School"
+    let n=n+1
+    if [ $n -eq 9 ]
+    then
+        echo "Hi"
+    fi
+done
