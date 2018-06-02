@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 # This script will loop to 10 printing Holberton School, 4th bad, 8th good
 
-n=0
-while [ $n -lt 10 ]
+n=1
+while [ $n -le 10 ]
 do
-   echo "Holberton School"
-   ((n++))
    if [ $n -eq 4 ]
    then
        echo "bad luck"
    elif [ $n -eq 8 ]
    then
        echo "good luck"
+   else
+       echo "Holberton School"
    fi
+   ((n++))
 done
