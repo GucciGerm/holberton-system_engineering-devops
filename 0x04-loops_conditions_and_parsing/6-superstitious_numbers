@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script will display numbers from 1:20 bl from china 4th loop
+# bl from Japan 9th loop, bad luck from italy 17th loop
+
+n=1
+while [ $n -le 20 ]
+do
+    echo $n
+    if [ $n -eq 4 ]
+    then
+        echo "bad luck from China"
+    elif [ $n -eq 9 ]
+    then
+	echo "bad luck from Japan"
+    elif [ $n -eq 17 ]
+    then
+        echo "bad luck from Italy"
+    fi
+    let n=n+1
+done
