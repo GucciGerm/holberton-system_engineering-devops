@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script will do a simple parsing of Apache log access files
 # You want the id and http
-awk -F" " '{print $1, 9}' apache-access.log
+awk -F" " '{print $1, $9}' apache-access.log
