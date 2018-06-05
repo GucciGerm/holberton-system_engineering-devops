@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script will kill our previously created process 7-highlander
+
+kill -9 "$(pgrep -f "bash ./7-highlander")"
