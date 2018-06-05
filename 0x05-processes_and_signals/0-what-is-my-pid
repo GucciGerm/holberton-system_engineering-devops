@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script will display it's PID in Bash
+
+echo "$$"
