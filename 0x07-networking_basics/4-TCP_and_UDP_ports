@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# Here this bash script will be only displaying listening sockets
 netstat -l
