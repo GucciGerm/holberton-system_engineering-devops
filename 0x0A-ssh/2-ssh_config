@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script will show you how to connect to server w/o typing a password
+Host *
+    HostName 104.196.101.39
+    User ubuntu
+    IdentityFile ~/.ssh/holberton
+    PasswordAuthentication no
