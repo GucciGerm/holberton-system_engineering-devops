@@ -7,7 +7,7 @@ echo 'Holberton School' | sudo tee /usr/share/nginx/html/index.html
 sudo service nginx start
 new_string="location /redirect_me {rewrite ^/(.*)$ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;\n}"
 sudo sed -i "30i $new_string" /etc/nginx/sites-available/default
-echo "Ceci n’est pas une page" | sudo tee /usr/share/nginx/html/custom_404.html
+echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/custom_404.html
 error_page="error_page 404 /custom_404.html; \nlocation = /custom_404.html {\nroot /usr/share/nginx/html;\ninternal;}\n"
 sudo sed -i "32i $error_page" /etc/nginx/sites-available/default
 sudo service nginx restart
