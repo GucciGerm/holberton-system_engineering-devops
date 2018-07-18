@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # This script will debug accounting for apache
+
 sudo service apache2 start
