@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script will account for if an arg was passed
+sudo -u "$1" whoami
