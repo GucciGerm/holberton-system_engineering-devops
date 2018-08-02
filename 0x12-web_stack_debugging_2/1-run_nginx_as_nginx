@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # This script will run as nginx user while running nginx, must be listening 80
 sudo pkill apache2
 chown nginx:nginx /etc/nginx/nginx.conf
