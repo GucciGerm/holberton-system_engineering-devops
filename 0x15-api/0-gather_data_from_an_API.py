@@ -35,8 +35,8 @@ def get_data(employee_id):
                 titles.append(task["title"])
 
     print("Employee {} is done with tasks({}/{}):"
-          .format(EMPLOYEE_NAME, TOTAL_NUMBER_OF_TASKS,
-                  NUMBER_OF_DONE_TASKS))
+          .format(EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS,
+                  TOTAL_NUMBER_OF_TASKS))
 
     for title in titles:
         print("\t {}".format(title))
