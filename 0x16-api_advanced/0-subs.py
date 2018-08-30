@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+   Here we will be getting the total amount of subscribers from a reddit API
+
+"""
 import json
 import requests
 
