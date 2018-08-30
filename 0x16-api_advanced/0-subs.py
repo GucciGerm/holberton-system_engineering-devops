@@ -29,5 +29,5 @@ def number_of_subscribers(subreddit):
         reddit_data = api_url.json().get('data')
         subs = reddit_data.get('subscribers')
         return (subs)
-    except:
+    except Exception:
         return (0)
