@@ -2,7 +2,7 @@
 
 exec { 'increase sys resources to 15000':
     path    => '/bin',
-    command => 'sed -i '\s/15/15000/g'\ /etc/default/nginx',
+    command => 'sed -i \'s/15/15000/g\' /etc/default/nginx',
 }
 exec { 'restart your nginx':
     path    => '/usr/bin',
