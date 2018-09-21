@@ -8,3 +8,4 @@ exec { 'restart your nginx':
     path    => '/usr/bin',
     command => 'sudo service nginx restart',
 }
+
